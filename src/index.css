@@ -1,0 +1,43 @@
+/* index.css */
+
+:root {
+  --primary-color: #2e7d32;      /* Dark Green */
+  --secondary-color: #66bb6a;    /* Medium Green */
+  --accent-color: #a5d6a7;       /* Light Green */
+  --background-color: #e8f5e9;   /* Very Light Green */
+  --text-color: #1b5e20;         /* Darker Green for Text */
+  --heading-color: #2e7d32;      /* Same as primary color for headings */
+  --paragraph-color: #33691e;    /* Slightly lighter dark green for paragraphs */
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color: var(--text-color);
+  background-color: var(--background-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.2;
+  color: var(--heading-color);
+  margin: 0 0 20px 0;
+}
+
+p {
+  line-height: 1.6;
+  margin: 10px 0;
+  color: var(--paragraph-color);
+}
